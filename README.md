@@ -33,7 +33,7 @@ Vous pouvez aussi utuliser `VS Code` (avec .net CLI), `Rider` ou tout autre IDE 
     - Confirmez que la case à cocher **Enable OpenAPI support** est cochée.
     - Sélectionnez Créer.
 - Lancez le projet
-- Votre navigateur s'ouvrira avec le l'exemple d'API par défaut WeatherForcast qui contient déjà plusieurs endpoints:
+- Votre navigateur s'ouvrira avec le l'exemple d'API par défaut WeatherForcast qui contient l'endpoint suivant:
 
     ![WeatherForecast!](./wf2.PNG)
 
