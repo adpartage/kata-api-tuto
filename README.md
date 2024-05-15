@@ -101,7 +101,7 @@ Les endpoints de Identity sont maintenant visibles.
 
 
 ## 5. Securisez votre API
-Ajouter l'attribut `[Authorize]` à la methode `Get` dans `WeatherForecastController.cs`
+Ajouter l'attribut `[Authorize]` à la methode `Get` dans `WeatherForecastController.cs` qui existe déjà dans le dossier `Controllers`
 Puis vérifiez que GetWeatherForecast ne peut plus être invoqué sans être authentifié.
 
 ```cs
