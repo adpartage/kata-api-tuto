@@ -101,24 +101,15 @@ Les endpoints de Identity sont maintenant visibles.
 
 
 ## 5. Securisez votre API
-Ajouter l'attribut `[Authorize]` la methode `Get` dans `WeatherForecastController.cs`
+Ajouter l'attribut `[Authorize]` à la methode `Get` dans `WeatherForecastController.cs`
 Puis vérifiez que GetWeatherForecast ne peut plus être invoqué sans être authentifié.
 
 ```cs
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
 
-[ApiController]
-[Route("[controller]")]
-public class WeatherForecastController : ControllerBase
-{
     [Authorize]
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
-    {
-        // ...
-    }
-}
+
 ```
 ## 5. Publier votre projet
 Publiez votre projet sur github ou bitbucket et partagez le lien
